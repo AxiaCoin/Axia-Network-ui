@@ -1,0 +1,82 @@
+{
+  "name": "@axia-js/react-qr",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generates and reads QR codes",
+  "main": "index.js",
+  "sideEffects": false,
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@babel/runtime": "^7.15.4",
+    "qrcode-generator": "^1.4.4",
+    "react-qr-reader": "^2.2.1",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/react-qr-reader": "^2.1.4",
+    "@types/styled-components": "^5.1.14"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./constants": {
+      "require": "./constants.cjs",
+      "default": "./constants.js"
+    },
+    "./Display": {
+      "require": "./Display.cjs",
+      "default": "./Display.js"
+    },
+    "./DisplayAddress": {
+      "require": "./DisplayAddress.cjs",
+      "default": "./DisplayAddress.js"
+    },
+    "./DisplayPayload": {
+      "require": "./DisplayPayload.cjs",
+      "default": "./DisplayPayload.js"
+    },
+    "./NetworkSpecs": {
+      "require": "./NetworkSpecs.cjs",
+      "default": "./NetworkSpecs.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./qrcode": {
+      "require": "./qrcode.cjs",
+      "default": "./qrcode.js"
+    },
+    "./README.md": "./README.md",
+    "./Scan": {
+      "require": "./Scan.cjs",
+      "default": "./Scan.js"
+    },
+    "./ScanAddress": {
+      "require": "./ScanAddress.cjs",
+      "default": "./ScanAddress.js"
+    },
+    "./ScanSignature": {
+      "require": "./ScanSignature.cjs",
+      "default": "./ScanSignature.js"
+    },
+    "./util": {
+      "require": "./util.cjs",
+      "default": "./util.js"
+    }
+  }
+}

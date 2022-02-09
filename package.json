@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/axia-js/ui",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "private": true,
+  "homepage": ".",
+  "workspaces": [
+    "packages/*"
+  ],
+  "resolutions": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "axia-dev-build-ts",
+    "build:release": "axia-ci-ghact-build",
+    "build:rollup": "axia-exec-rollup --config",
+    "lint": "axia-dev-run-lint",
+    "clean": "axia-dev-clean-build",
+    "demo:identicon:react": "yarn build && webpack-serve --config packages/react-identicon/webpack.config.js --content packages/react-identicon --port 8080",
+    "demo:identicon:vue": "yarn build && webpack-serve --config packages/vue-identicon/webpack.config.js --content packages/vue-identicon --port 8080",
+    "example:rn:packager": "yarn build && cd packages/exampleReactNative && yarn copy-workspace-packages && yarn start",
+    "example:rn:ios": "cd packages/exampleReactNative && cd ios && pod install && cd .. && yarn ios",
+    "example:rn:android": "cd packages/exampleReactNative && yarn android",
+    "example:react": "yarn build && cd packages/example-react && webpack --config webpack.config.js",
+    "example:vue": "yarn build && cd packages/example-vue && webpack --config webpack.config.js",
+    "postinstall": "axia-dev-yarn-only",
+    "test": "axia-dev-run-test --coverage --runInBand",
+    "test:one": "axia-dev-run-test"
+  },
+  "devDependencies": {
+    "@axia-js/dev": "0.1.1",
+    "@axia-js/ts": "0.1.1",
+    "@axia-js/x-bundle": "0.1.1",
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "@types/jest": "^27.0.1",
+    "babel-plugin-transform-vue-template": "^0.4.2",
+    "empty": "^0.10.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-native": "^0.65.1",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-serve": "^3.2.0"
+  },
+  "version": "0.1.0",
+  "packageManager": "yarn@3.0.1"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "@axia-js/vue-identicon",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Renders an SVG picture representing an address",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/ui-shared": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@babel/runtime": "^7.15.4",
+    "jdenticon": "3.1.1"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "vue": "*"
+  },
+  "devDependencies": {
+    "vue": "^2.6.14"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./bundle": {
+      "require": "./bundle.cjs",
+      "default": "./bundle.js"
+    },
+    "./Demo": {
+      "require": "./Demo.cjs",
+      "default": "./Demo.js"
+    },
+    "./detectPackage": {
+      "require": "./detectPackage.cjs",
+      "default": "./detectPackage.js"
+    },
+    "./icons": {
+      "require": "./icons/index.cjs",
+      "default": "./icons/index.js"
+    },
+    "./icons/AXIA": {
+      "require": "./icons/AXIA.cjs",
+      "default": "./icons/AXIA.js"
+    },
+    "./icons/Beachball": {
+      "require": "./icons/Beachball.cjs",
+      "default": "./icons/Beachball.js"
+    },
+    "./icons/Empty": {
+      "require": "./icons/Empty.cjs",
+      "default": "./icons/Empty.js"
+    },
+    "./icons/Jdenticon": {
+      "require": "./icons/Jdenticon.cjs",
+      "default": "./icons/Jdenticon.js"
+    },
+    "./Identicon": {
+      "require": "./Identicon.cjs",
+      "default": "./Identicon.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md"
+  }
+}

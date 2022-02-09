@@ -1,0 +1,29 @@
+{
+  "name": "@axia-js/vue-identicon",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Renders an SVG picture representing an address",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/ui-shared": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@babel/runtime": "^7.15.4",
+    "jdenticon": "3.1.1"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "vue": "*"
+  },
+  "devDependencies": {
+    "vue": "^2.6.14"
+  }
+}

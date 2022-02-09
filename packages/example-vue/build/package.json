@@ -1,0 +1,25 @@
+{
+  "name": "@axia-js/example-vue",
+  "version": "0.1.0",
+  "description": "A very basic example with ui-* & vue-* packages",
+  "main": "index.js",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md"
+  },
+  "type": "module"
+}

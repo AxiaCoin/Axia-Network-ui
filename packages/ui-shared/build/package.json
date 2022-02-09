@@ -1,0 +1,101 @@
+{
+  "name": "@axia-js/ui-shared",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Shared logic that is usable accross all frameworks-specific areas",
+  "main": "index.js",
+  "sideEffects": false,
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "color": "^3.2.1"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2"
+  },
+  "devDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@types/color": "^3.0.2",
+    "@types/xmlserializer": "^0.6.2"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./icons": {
+      "require": "./icons/index.cjs",
+      "default": "./icons/index.js"
+    },
+    "./icons/axia": {
+      "require": "./icons/axia.cjs",
+      "default": "./icons/axia.js"
+    },
+    "./icons/beachball": {
+      "require": "./icons/beachball/index.cjs",
+      "default": "./icons/beachball/index.js"
+    },
+    "./icons/beachball/colors": {
+      "require": "./icons/beachball/colors.cjs",
+      "default": "./icons/beachball/colors.js"
+    },
+    "./icons/beachball/container": {
+      "require": "./icons/beachball/container.cjs",
+      "default": "./icons/beachball/container.js"
+    },
+    "./icons/beachball/defaults": {
+      "require": "./icons/beachball/defaults.cjs",
+      "default": "./icons/beachball/defaults.js"
+    },
+    "./icons/beachball/demo": {
+      "require": "./icons/beachball/demo.cjs",
+      "default": "./icons/beachball/demo.js"
+    },
+    "./icons/beachball/seeder": {
+      "require": "./icons/beachball/seeder.cjs",
+      "default": "./icons/beachball/seeder.js"
+    },
+    "./icons/beachball/shape/circle": {
+      "require": "./icons/beachball/shape/circle.cjs",
+      "default": "./icons/beachball/shape/circle.js"
+    },
+    "./icons/beachball/shape/square": {
+      "require": "./icons/beachball/shape/square.cjs",
+      "default": "./icons/beachball/shape/square.js"
+    },
+    "./icons/beachball/svg/circle": {
+      "require": "./icons/beachball/svg/circle.cjs",
+      "default": "./icons/beachball/svg/circle.js"
+    },
+    "./icons/beachball/svg/element": {
+      "require": "./icons/beachball/svg/element.cjs",
+      "default": "./icons/beachball/svg/element.js"
+    },
+    "./icons/beachball/svg/rect": {
+      "require": "./icons/beachball/svg/rect.cjs",
+      "default": "./icons/beachball/svg/rect.js"
+    },
+    "./icons/beachball/svg/svg": {
+      "require": "./icons/beachball/svg/svg.cjs",
+      "default": "./icons/beachball/svg/svg.js"
+    },
+    "./icons/beachball/types": {
+      "require": "./icons/beachball/types.cjs",
+      "default": "./icons/beachball/types.js"
+    },
+    "./icons/types": {
+      "require": "./icons/types.cjs",
+      "default": "./icons/types.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md"
+  }
+}

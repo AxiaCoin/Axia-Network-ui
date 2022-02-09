@@ -1,0 +1,32 @@
+// Copyright 2017-2021 @axia-js/vue-identicon authors & contributors
+// SPDX-License-Identifier: Apache-2.0
+import Vue from 'vue';
+import Identicon from "./index.js";
+
+/**
+ * @name Demo
+ * @description Demo component
+ */
+const Demo = Vue.extend({
+  components: {
+    Identicon
+  },
+  data: function () {
+    return {
+      address: '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY',
+      size: 128
+    };
+  },
+  name: 'Demo',
+  template: `
+    <div id="demo">
+      <Identicon :size="size" :theme="'axia'" :value="address" />
+      <Identicon :size="size" :theme="'axlib'" :value="address" />
+      <Identicon :size="size" :theme="'beachball'" :value="address" />
+      <Identicon :size="size" :theme="'empty'" />
+    </div>
+  `
+});
+new Vue({
+  render: h => h(Demo)
+}).$mount('#demo');

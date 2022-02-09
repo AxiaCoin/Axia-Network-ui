@@ -1,0 +1,12 @@
+{
+  "name": "@axia-js/ui-assets",
+  "version": "0.1.0",
+  "description": "Static assets shared accross projects",
+  "main": "index.js",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  }
+}

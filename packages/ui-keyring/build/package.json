@@ -1,0 +1,122 @@
+{
+  "name": "@axia-js/ui-keyring",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "repository": "github:axia-js/apps",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "contributors": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/hw-ledger": "0.1.0",
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/ui-settings": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@babel/runtime": "^7.15.4",
+    "mkdirp": "^1.0.4",
+    "rxjs": "^7.3.0",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^1.0.2",
+    "@types/store": "^2.0.2"
+  },
+  "peerDependencies": {
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/ui-settings": "0.1.0",
+    "@axia-js/util": "0.1.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./Base": {
+      "require": "./Base.cjs",
+      "default": "./Base.js"
+    },
+    "./bundle": {
+      "require": "./bundle.cjs",
+      "default": "./bundle.js"
+    },
+    "./defaults": {
+      "require": "./defaults.cjs",
+      "default": "./defaults.js"
+    },
+    "./detectPackage": {
+      "require": "./detectPackage.cjs",
+      "default": "./detectPackage.js"
+    },
+    "./Keyring": {
+      "require": "./Keyring.cjs",
+      "default": "./Keyring.js"
+    },
+    "./observable": {
+      "require": "./observable/index.cjs",
+      "default": "./observable/index.js"
+    },
+    "./observable/accounts": {
+      "require": "./observable/accounts.cjs",
+      "default": "./observable/accounts.js"
+    },
+    "./observable/addresses": {
+      "require": "./observable/addresses.cjs",
+      "default": "./observable/addresses.js"
+    },
+    "./observable/contracts": {
+      "require": "./observable/contracts.cjs",
+      "default": "./observable/contracts.js"
+    },
+    "./observable/env": {
+      "require": "./observable/env.cjs",
+      "default": "./observable/env.js"
+    },
+    "./observable/genericSubject": {
+      "require": "./observable/genericSubject.cjs",
+      "default": "./observable/genericSubject.js"
+    },
+    "./observable/types": {
+      "require": "./observable/types.cjs",
+      "default": "./observable/types.js"
+    },
+    "./options": {
+      "require": "./options/index.cjs",
+      "default": "./options/index.js"
+    },
+    "./options/item": {
+      "require": "./options/item.cjs",
+      "default": "./options/item.js"
+    },
+    "./options/types": {
+      "require": "./options/types.cjs",
+      "default": "./options/types.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md",
+    "./stores": {
+      "require": "./stores/index.cjs",
+      "default": "./stores/index.js"
+    },
+    "./stores/Browser": {
+      "require": "./stores/Browser.cjs",
+      "default": "./stores/Browser.js"
+    },
+    "./stores/File": {
+      "require": "./stores/File.cjs",
+      "default": "./stores/File.js"
+    },
+    "./types": {
+      "require": "./types.cjs",
+      "default": "./types.js"
+    }
+  }
+}

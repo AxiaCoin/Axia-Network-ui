@@ -1,0 +1,25 @@
+{
+  "name": "@axia-js/ui-shared",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Shared logic that is usable accross all frameworks-specific areas",
+  "main": "index.js",
+  "sideEffects": false,
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "color": "^3.2.1"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2"
+  },
+  "devDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@types/color": "^3.0.2",
+    "@types/xmlserializer": "^0.6.2"
+  }
+}

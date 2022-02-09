@@ -1,0 +1,43 @@
+{
+  "name": "@axia-js/react-identicon",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Renders an SVG picture representing an address",
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/ui-settings": "0.1.0",
+    "@axia-js/ui-shared": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "@babel/runtime": "^7.15.4",
+    "color": "^3.2.1",
+    "ethereum-blockies-base64": "^1.0.2",
+    "jdenticon": "3.1.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "styled-components": "^5.3.1"
+  },
+  "peerDependencies": {
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
+    "react": "*",
+    "react-dom": "*",
+    "react-is": "*",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.14",
+    "styled-components": "^5.3.1",
+    "xmlserializer": "^0.6.1"
+  }
+}

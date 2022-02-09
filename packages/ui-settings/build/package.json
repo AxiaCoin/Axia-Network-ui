@@ -1,0 +1,81 @@
+{
+  "name": "@axia-js/ui-settings",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Manages app settings",
+  "main": "index.js",
+  "sideEffects": false,
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/networks": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@babel/runtime": "^7.15.4",
+    "eventemitter3": "^4.0.7",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/store": "^2.0.2"
+  },
+  "peerDependencies": {
+    "@axia-js/networks": "0.1.0",
+    "@axia-js/util": "0.1.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./bundle": {
+      "require": "./bundle.cjs",
+      "default": "./bundle.js"
+    },
+    "./defaults": {
+      "require": "./defaults/index.cjs",
+      "default": "./defaults/index.js"
+    },
+    "./defaults/chains": {
+      "require": "./defaults/chains.cjs",
+      "default": "./defaults/chains.js"
+    },
+    "./defaults/crypto": {
+      "require": "./defaults/crypto.cjs",
+      "default": "./defaults/crypto.js"
+    },
+    "./defaults/endpoints": {
+      "require": "./defaults/endpoints.cjs",
+      "default": "./defaults/endpoints.js"
+    },
+    "./defaults/ledger": {
+      "require": "./defaults/ledger.cjs",
+      "default": "./defaults/ledger.js"
+    },
+    "./defaults/ss58": {
+      "require": "./defaults/ss58.cjs",
+      "default": "./defaults/ss58.js"
+    },
+    "./defaults/type": {
+      "require": "./defaults/type.cjs",
+      "default": "./defaults/type.js"
+    },
+    "./defaults/ui": {
+      "require": "./defaults/ui.cjs",
+      "default": "./defaults/ui.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md",
+    "./Settings": {
+      "require": "./Settings.cjs",
+      "default": "./Settings.js"
+    },
+    "./types": {
+      "require": "./types.cjs",
+      "default": "./types.js"
+    }
+  }
+}

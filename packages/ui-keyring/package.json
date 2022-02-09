@@ -1,0 +1,34 @@
+{
+  "name": "@axia-js/ui-keyring",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "repository": "github:axia-js/apps",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "contributors": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@axia-js/hw-ledger": "0.1.0",
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/ui-settings": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@babel/runtime": "^7.15.4",
+    "mkdirp": "^1.0.4",
+    "rxjs": "^7.3.0",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^1.0.2",
+    "@types/store": "^2.0.2"
+  },
+  "peerDependencies": {
+    "@axia-js/keyring": "0.1.2",
+    "@axia-js/ui-settings": "0.1.0",
+    "@axia-js/util": "0.1.0"
+  }
+}

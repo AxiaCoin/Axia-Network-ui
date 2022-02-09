@@ -1,0 +1,12 @@
+{
+  "name": "@axia-js/example-react",
+  "version": "0.1.0",
+  "description": "A very basic example with ui-* & react-* packages",
+  "main": "index.js",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  }
+}
