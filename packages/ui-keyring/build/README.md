@@ -123,7 +123,7 @@ class MyReactComponent extends React.PureComponent<State> {
 - What are 'external' accounts, i.e. when to set the `isExternal` meta key to true?
   - An external account is one where the keys are not managed by keyring, e.g. in Axia Signer or Ledger Nano.
 - SS58 Encode / Decode?
-  -  SS58 is a simple address format designed for Axlib based chains. You can read about its specification in more detail in the [Axia Wiki](https://wiki.axc.io/External-Address-Format-(SS58)).
+  -  SS58 is a simple address format designed for Axlib based chains. You can read about its specification in more detail in the [Axia Wiki](https://wiki.axia.io/External-Address-Format-(SS58)).
 
 **If you have any unanswered/undocumented questions, please raise an issue [here](https://github.com/axia-js/ui/issues).**
 
