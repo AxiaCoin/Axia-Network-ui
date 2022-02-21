@@ -121,16 +121,13 @@ class MyReactComponent extends React.PureComponent<State> {
   - From the perspective of the keyring, it saves a particular user's unlocked identities as an account, a la keyring.saveAccount(pair, password). So with these accounts you are able to send and sign transactions.
   - To save addresses without unlocking them (i.e. because a user might want to have easy access to addresses they frequently transact with), use keyring.saveAddress(address, meta)
 - What are 'external' accounts, i.e. when to set the `isExternal` meta key to true?
-  - An external account is one where the keys are not managed by keyring, e.g. in Axia Signer or Ledger Nano.
+  - An external account is one where the keys are not managed by keyring.
 - SS58 Encode / Decode?
-  -  SS58 is a simple address format designed for Axlib based chains. You can read about its specification in more detail in the [Axia Wiki](https://wiki.axia.io/External-Address-Format-(SS58)).
-
-**If you have any unanswered/undocumented questions, please raise an issue [here](https://github.com/axia-js/ui/issues).**
+  -  SS58 is a simple address format
 
 
 ## Users
 
-Keyring is core to many axia/axlib apps.
+Keyring is core to many AXIA apps.
 
 * [axia-js/apps](https://github.com/axia-js/apps)
-* [axia-tech/axlib-light-ui](https://github.com/axia-tech/axlib-light-ui)

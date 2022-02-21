@@ -37,4 +37,3 @@ render () {
 Apps that currently use the settings package
 
 * [axia-js/apps](https://www.github.com/axia-js/apps)
-* [axia-tech/axlib-light-ui](https://github.com/axia-tech/axlib-light-ui)

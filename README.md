@@ -1,9 +1,6 @@
-[![axiajs](https://img.shields.io/badge/axia-js-orange?style=flat-square)](https://axia.js.org)
 ![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
 [![npm](https://img.shields.io/npm/v/@axia-js/react-identicon?logo=npm&style=flat-square)](https://www.npmjs.com/package/@axia-js/react-identicon)
 [![beta](https://img.shields.io/npm/v/@axia-js/react-identicon/beta?label=beta&logo=npm&style=flat-square)](https://www.npmjs.com/package/@axia-js/react-identicon)
-[![maintainability](https://img.shields.io/codeclimate/maintainability-percentage/axia-js/ui?logo=code-climate&style=flat-square)](https://codeclimate.com/github/axia-js/ui)
-[![coverage](https://img.shields.io/codeclimate/coverage/axia-js/ui?logo=code-climate&style=flat-square)](https://codeclimate.com/github/axia-js/ui)
 
 # @axia-js/ui
 
@@ -21,7 +18,7 @@ The following UI components are currently available -
 Additionally some shared libraries, that is not dependent on any framework -
 
 - [ui-assets](packages/ui-assets/) Static assets, images and others, shared accross projects
-- [ui-keyring](packages/ui-keyring/) A browser-specific wrapper around the base [@axia-js/util-keyring](https://github.com/axia-js/util/) library
+- [ui-keyring](packages/ui-keyring/) A browser-specific wrapper around the base util-keyring library
 - [ui-settings](packages/ui-settings/) A browser local storage wrapper for app settings & configuration
 - [ui-shared](packages/ui-shared) Shared logic that is used accross UI components, e.g. for icon generation
 

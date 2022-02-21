@@ -21,9 +21,3 @@ Replacements for node builtin packages can be added in the `extraNodeModules` se
 # Yarn Workspaces
 
 Metro will watch the build dirs of the packages in `packages/*` for changes, as well as use the `node_modules` of the root folder. However, packages that depend on the `nohoist`ed `react-native` , such as `reactnative-identicon`, must be copied to the local `node_modules` folder. See `metro.config.js` and `package.json`'s scripts for details.
-
-# Screenshots
-
-iOs                         |  Android
-:-------------------------:|:-------------------------:
-![](https://i.imgur.com/ttYwAMg.png)  |  ![](https://i.imgur.com/axt1X9n.jpg)

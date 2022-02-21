@@ -1,6 +1,6 @@
 # @axia-js/react-identicon
 
-A generic identity icon that can render icons based on the theme, be it Axlib or AXIA
+A generic identity icon that can render icons based on the theme.
 
 ## Usage Examples
 
